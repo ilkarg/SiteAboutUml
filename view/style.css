@@ -1,0 +1,55 @@
+body 
+{
+	background-color: #9bc7ba;
+	font-family: sans-serif;
+	font-size: 20px;
+	color: white;
+}
+
+body > #content 
+{
+	margin-top: 50px;
+}
+
+#content > p
+{
+	text-align: center;
+}
+
+#content > h2 
+{
+	text-align: center;
+}
+
+#menu 
+{
+	cursor: default;
+}
+
+#menu > p > a 
+{
+	cursor: pointer;
+	transition: 0.2s;
+}
+
+#menu > p > a:hover 
+{
+	color: blue;
+	text-decoration-line: underline;
+	cursor: pointer;
+}
+
+#unselectable 
+{
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+body > #menu 
+{
+	margin-top: 50px;
+}
